@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Labrada;
+    font-size: 32px;
+}
+
+@font-face {
+    font-family: Labrada;
+    src: url(fonts/Labrada-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Tilt_prism;
+    src: url(fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+h1 {
+    font-family: Tilt_prism;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.me_img {
+    height: 500px;
+    width: auto;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(93, 223, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(228, 72, 98);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 157, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
