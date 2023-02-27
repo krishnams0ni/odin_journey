@@ -1,59 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
 body {
-    background-color: black;
-    color: white;
-    font-size: larger;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-family: Labrada;
-    font-size: 32px;
+  background-color: black;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Labrada", serif;
+  font-size: 26px;
 }
 
-@font-face {
-    font-family: Labrada;
-    src: url(fonts/Labrada-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: Tilt_prism;
-    src: url(fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
+h1,
+h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Fredericka the Great", serif;
+  font-weight: normal;
 }
 
 h1 {
-    font-family: Tilt_prism;
-    font-size: 70px;
-    text-align: center;
-    font-weight: bold;
+  font-size: 70px;
+  text-align: center;
 }
 
 .me_img {
-    height: 500px;
-    width: auto;
-}
-
-a {
-    font-weight: bold;
+  height: 350px;
+  width: auto;
 }
 
 a:link {
-    color: rgb(93, 223, 0);
-    background-color: transparent;
-    text-decoration: none;
+  color: rgb(0, 255, 208);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(228, 72, 98);
-    background-color: transparent;
-    text-decoration: none;
+  color: rgb(253, 133, 255);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 157, 0);
-    background-color: transparent;
-    text-decoration: underline;
+  color: rgb(255, 247, 0);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
